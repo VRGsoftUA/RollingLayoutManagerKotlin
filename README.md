@@ -22,9 +22,9 @@ dependencies {
 ```
 2. Create an insance of RollingLayoutManager
 ```java
-  RecyclerView recyclerView = findViewById(R.id.recycler_view);
-  RollingLayoutManager rollingLayoutManager = new RollingLayoutManager(this);
-  recyclerView.setLayoutManager(rollingLayoutManager);
+        val recyclerView = findViewById<RecyclerView>(R.id.recycler_view)
+        val rollingLayoutManager = RollingLayoutManager(this)
+        recyclerView.layoutManager = rollingLayoutManager
 ```
 #### Contributing
 * Contributions are always welcome
